@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    background-color: aqua;
+    height: 60px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .col{
+    background-color: yellow;
+    margin: 5px;
+} */
+.block{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    color: white;
+    list-style-type: none;
+}
+.nav_item{
+    display: inline-block;
+    margin-right: 10px;
+}
+.nav_item_link{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0px;
+    border: 1px solid transparent;
+}
+.nav_item:hover{
+    border-radius:3px;
+    background-color:rgb(15, 242, 242);
+    transition: 1s;
+}
+.menu .lang{
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.menu .lang p{
+    margin-left: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    border: 1px solid transparent;
+}
+.menu .lang a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.menu .lang p:hover{
+    background-color:rgb(15, 242, 242);
+    border-radius:3px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0;
+    /* background-color: black; */
+}
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.first{
+    width: 49%;
+    /* background-color: pink; */
+    height: 400px;
+    border: 1px solid transparent;
+    transition: 1s;
+}
+.first img{
+    width: 100%;
+    height: 200px;
+    border-radius: 3px;
+}
+.first .title{
+    font-size: 24px;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.first .info{
+    font-size: 18px;
+    
+}
+.first:hover{
+    border: 1px solid rgb(207, 202, 202);
+    box-shadow: 0px 0px 19px -8px black;
+    transition: 1s;
+    cursor: pointer;
+}
+.first:hover .title{
+    color:blue ;
+}
+.second{
+    width: 50%;
+    /* background-color: pink; */
+    height: 400px;
+    border: 1px solid transparent;
+    transition: 1s;
+}
+.content{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    border: 1px solid transparent;
+}
+.content .photo{
+    width: 20%;
+    height: 59px;
+}
+.content .photo img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.content .datas{
+    width: 78%;
+    height: 100%;
+}
+.content .datas .theme{
+    font-weight: bold;
+}
+.content .datas .date{
+    margin: 3px 0;
+}
+.second:hover{
+    border: 1px solid rgb(207, 202, 202);
+    box-shadow: 0px 0px 19px -8px black;
+    transition: 1s;
+    /* cursor: pointer;  */
+}
+.content:hover{
+    border: 1px solid rgb(207, 202, 202);
+    box-shadow: 0px 0px 19px -8px black;
+    transition: 1s;
+    cursor: pointer;
+}
+.content:hover .photo img{
+    border-radius: 10px;
+    transition: 1s;
+}
+.content:hover .theme{
+    color: blue;
+    transition: 1s;
+}
+.news{
+    width: 49%;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 1s;
+    border: 1px solid transparent;
+}
+.news .rasm{
+    width: 28%;
+    height: 100%;
+    /* margin: 10px 0; */
+}
+.news .rasm img{
+    width: 90%;
+    height: 70%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+.news .mavzu{
+    width: 70%;
+    height: 70%;
+    /* margin: 10px 0; */
+}
+.news .mavzu .title{
+    font-size: 18px;
+    /* margin: 10px 0; */
+    font-weight: bold;  
+}
+.news .mavzu .info{
+    margin: 10px 0;
+}
+.news:hover{
+    border: 1px solid rgb(207, 202, 202);
+    box-shadow: 0px 0px 19px -8px black;
+    transition: 1s;
+    /* cursor: pointer;    */
+}
+.news:hover .mavzu .title{
+    color: blue;
+    cursor: pointer;
+}
+.news:hover .rasm img{
+    border-radius: none;
+    box-shadow: 0px 0px 19px -8px black;
+}
+.soz_boshi{
+    margin: 10px 0;
+}
